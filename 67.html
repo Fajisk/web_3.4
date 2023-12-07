@@ -1,0 +1,256 @@
+<html>
+    <head>
+        <title>
+            register
+        </title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            div{
+                position: absolute;
+            }
+            .fon{
+                position: absolute;
+                width:100%;
+                height: 100%;
+                background-image: url(https://www.visafranchise.com/wp-content/uploads/2017/09/Coffee-Photo-1.jpg);
+                filter: brightness(40%);
+                box-shadow: black;
+                
+            }
+            .sign1:hover, .sign2:hover{
+                box-shadow: 0px 5px 10px 5px rgb(241, 237, 237);
+            }
+            .sign1, .sign2{
+                background-color:yellow;
+                position: absolute; 
+                width: 200px;
+                height: 50px;
+                border:0;
+                box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
+                font: 10pt Arial, Helvetica, sans-serif, bold;
+            }
+            .sign1{
+                margin-top: 250px;
+                margin-left: 113px;
+            }
+            .sign2{
+            margin-top: 380px;
+            margin-left: 480px;
+            }
+            input{
+                border: 0;
+                background-color: transparent;
+                position: absolute;
+                font-size: larger;
+                font-style:normal;
+                font-family: "Montserrat";
+                color: aliceblue
+            }
+            .blok{
+                position: absolute;
+                width: 800px;
+                height: 550px;
+                background: rgb(131,58,180);
+                background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(206,111,111,1) 50%, rgba(252,176,69,1) 100%);
+                opacity: 0.8;
+                box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
+            }
+            .ff{
+                position: absolute; 
+                width: 150px;
+                height: 50px;
+                outline: 2px solid snow;
+                margin-left: 50px;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 50px; 
+                color: white;
+                background-image: url(https://problemskotlom.net/wp-content/uploads/2020/04/imgonline-com-ua-Negativ-lVtmyVXIhYb.png);
+                background-position: 12;
+                background-size: 40px;
+                background-repeat:no-repeat;
+            }
+            .gg{
+                position: absolute; 
+                width: 150px;
+                height: 50px;
+                outline: 2px solid snow;
+                margin-left: 230px;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 50px; 
+                color: white;
+                background-image: url(https://static.insales-cdn.com/files/1/1262/27690222/original/pngwing.com.png);
+                background-position: 12;
+                background-size: 40px;
+                background-repeat:no-repeat;
+            }
+            .vk,.ok,.gg,.ff{
+                position: absolute; 
+                width: 150px;
+                height: 50px;
+                margin-top: 440px;
+            }
+            .vk{
+                margin-left: 50px;
+                opacity: 0.0;
+            }
+            .ok{
+                margin-left: 230px;
+                opacity: 0.0;
+            }
+            .hr1{
+                margin-top: 130px;
+                margin-left: 80px;
+                opacity: 0.7;
+            }
+            
+            .hr2{
+                margin-top: 200px;
+                margin-left: 80px;
+            }
+            .hr3{
+                margin-top: 130px;
+                margin-left: 440px;
+            }
+            .hr4{
+                margin-top: 200px;
+                margin-left: 440px;
+            }
+            .hr5{
+                margin-top: 270px;
+                margin-left: 440px;
+            }
+            .hr6{
+                margin-top: 340px;
+                margin-left: 440px;
+            }
+            .hr1,.hr2,.hr3,.hr4,.hr5,.hr6{
+                position: absolute;
+                width: 270px;
+                opacity: 0.6;
+            }
+            .z1,.z2,.f,.by,.e1,.e2,.for,.l,.p1,.p2,.Or,.by{
+                color: white;
+                position: absolute;
+            }
+            .z1,.z2{
+                font-family: 'Roboto', Arial, sans-serif;
+                font-size:xx-large;
+                margin-top: 30px;
+            }
+            .z1{
+                margin-left: 70px;
+            }
+            .z2{
+                margin-left: 440px;
+            }
+            .e1{
+                margin-top: 110px;
+                margin-left: 80px;
+                color:white
+            }
+            .e2{
+                margin-left:80px;
+                margin-top:180px;
+            }
+            .e3{
+                margin-top: 250px;
+                margin-left:440;
+            }
+            .e4{
+                margin-top: 320px;
+                margin-left:440;
+            }
+            .e5{
+                margin-left:440;
+                margin-top: 110;
+            }
+            .e6{
+                margin-left: 440;
+                margin-top: 180;
+            }
+            ::placeholder{
+                color:white;
+            }
+            .forgot{
+                margin-top: 320;
+                margin-left:80;
+            }
+            a{
+                color: aliceblue;
+            }
+            a:hover{
+                color:aquamarine
+            }
+            .or{
+                color:azure;
+                position: absolute;
+                margin-top: 380;
+                margin-left:150
+            }
+            .cheburek{
+                position: absolute;
+                color: azure;
+                margin-left: 440;
+                margin-top: 470;
+            }
+            .x{
+                position: absolute;
+                color: azure;
+                font-size:80;
+                margin-left: 730;
+            }
+            .b1{
+                position: absolute; 
+                width: 150px;
+                height: 50px;
+                margin-top: 440px;
+                margin-left: 50px;
+                opacity: 0.0;
+            }
+            .b2{
+                position: absolute; 
+                width: 150px;
+                height: 50px;
+                margin-top: 440px;
+                margin-left: 230px;
+                opacity: 0.0;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="fon"></form>
+        <form class="blok">
+            <div class="z1">Sign In</div>
+            <div class="z2">Sign Up</div>
+            <div></div>
+            <input class="e1" type="email" name="username" placeholder="Email" size="30">
+            <input class="e2" type="password" name="password" placeholder="password" size="30">
+            <input class="e3" type="email" name="username" placeholder="Email" size="30">
+            <input class="e4" type="password" name="password" placeholder="password" size="30">
+            <input class="e5" type="text" size="35" name="username" placeholder="First name">
+            <input class="e6" type="text" size="35" name="username" placeholder="Last name">
+            <hr class="hr1">
+            <div class="forgot"><a href="https://ru.wikihow.com/вспомнить-забытый-пароль">Forgot password?</a></div>
+            <div class="or">- Or Sign In With -</div>
+            <div class="cheburek">by creating an account, you agree to our <a href="https://habr.com/ru/docs/help/rules/">rules</a></div>
+            <div class="x">&#215;</div>
+            <hr class="hr2">
+            <hr class="hr3">
+            <hr class="hr4">
+            <hr class="hr5">
+            <hr class="hr6">
+            <div class="ff">Vk</div>
+            <div class="gg">Ok</div>
+            <button class="sign1">Sign in</button>
+            <button class="sign2">Sign up</button>
+            <form class="vk" action="https://vk.com/"><button type="submit" class="b1"></button></form>
+            <form class="ok" action="https://ok.ru/"><button type="submit" class="b2"></button></form>
+        </form>
+    </body>
+</html>
